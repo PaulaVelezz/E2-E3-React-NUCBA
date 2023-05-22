@@ -19,6 +19,6 @@ const Check = props => {
       </label>
     </Fragment>
   )
-};
+}
 
 export default Check;
