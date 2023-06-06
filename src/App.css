@@ -49,6 +49,7 @@
 .td_input{
   padding: 2px;
   background: #f8f8f8;
+  border-radius: 7px;
 }
 
 .td_input > .text {
@@ -68,9 +69,10 @@
   justify-content: space-between;
   background-color:#070707;
   border: solid 1px #d49637;
-  padding: 3px;
-  margin: 4px;
+  padding: 0.60rem 0.80rem;
+  margin-bottom: 0.50rem;
   width: 100%;
+  border-radius: 7px;
 }
 
 .texto_tarea{
@@ -82,7 +84,7 @@
 .td_lista{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
-  color: #070707;
+  color: #807d7d;
   width: auto;
   display: flex;
   flex-direction: column;

@@ -1,7 +1,4 @@
 import React, { useState } from 'react'
- 
-/*genero el estado descripcion y se lo asigno al input, despues con el 
-manejador de eventos lo controlo*/
 
 const FormToDo = props => {
   const { handleAddItem } = props;
@@ -24,7 +21,7 @@ const FormToDo = props => {
     <form onSubmit={handleSubmit}>
       <div className='td_list'>
         <h1>To Do App</h1>
-        <h3>-Para cuando tenés déficit de B12-</h3>
+        <h3>- Para cuando tenés déficit de B12 -</h3>
         <div className='td_input'>
           <input 
           className='text'
