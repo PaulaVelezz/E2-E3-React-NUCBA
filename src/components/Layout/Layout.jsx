@@ -4,13 +4,14 @@ import Navbar from '../Navbar/Navbar';
 
 
 const LayoutContainer = styled.div`
+  width: 100%;
   height: auto;
-  max-width: 1200px;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 `;
 
 const ContentDinamicContainer = styled.div`
-  height: calc(100vh - 120px);
+  height: 100vh;
 `;
 
 

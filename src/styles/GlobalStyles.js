@@ -18,5 +18,6 @@ body {
     radial-gradient(at 46% 61%, rgb(253, 164, 175) 0, transparent 80%), 
     radial-gradient(at 62% 9%, rgb(94, 234, 212) 0, transparent 49%), 
     radial-gradient(at 74% 22%, rgb(17, 94, 89) 0, transparent 64%);
+    background-repeat: no-repeat;
 }
 `;

@@ -1,12 +1,3 @@
-.TdContainerCard{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  width: 100%;
-}
-
 .td_list{
   width: 450px;
   display: flex;
@@ -52,6 +43,7 @@
   border-radius: 5px;
   color: whitesmoke;
   background-color: #c52222;
+  cursor: pointer;
 }
 
 .td_input{
@@ -73,7 +65,12 @@
   flex-direction: row;
   align-items: center;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  background-color:#070707;
+  border: solid 1px #d49637;
+  padding: 3px;
+  margin: 4px;
+  width: 100%;
 }
 
 .texto_tarea{
@@ -86,4 +83,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   color: #070707;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

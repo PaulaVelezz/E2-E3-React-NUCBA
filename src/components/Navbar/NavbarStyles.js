@@ -6,6 +6,7 @@ export const NavbarContainerStyled = styled.header `
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem 3rem;
 `;
 
 export const LinksContainer = styled.div`
