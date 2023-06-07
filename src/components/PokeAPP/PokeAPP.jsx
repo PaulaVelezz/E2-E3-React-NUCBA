@@ -43,7 +43,7 @@ const PokeAPP = () => {
 
             } catch (error) {
                 setLoading(false);
-                setError("El pokemon que ingresaste no se encuentra, proba buscando otro");
+                setError(alert("El pokemon que ingresaste no se encuentra, proba buscando otro."));
             }
         }
         getData();
@@ -81,7 +81,7 @@ const PokeAPP = () => {
             </SearchBtnStyle>
         </CardStyle>
       </CardContainerStyle>
-      {loading && <Spinner />}
+      {loading && <div id="cover-spin"> <Spinner /></div> }
       </>
   );
 }

@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-const TDWrapper = styled.div `
+const TDwrapper = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,4 +10,4 @@ const TDWrapper = styled.div `
     background-color: #232323;
 `;
 
-export default TDWrapper;
+export default TDwrapper;

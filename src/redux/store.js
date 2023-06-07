@@ -3,10 +3,10 @@ import storage from 'redux-persist/lib/storage';
 import persistReducer from 'redux-persist/es/persistReducer';
 import persistStore from 'redux-persist/lib/persistStore';
 
-import todoReducer from './todoSlice';
+import taskReducer from "./tareaSlice";
 
 const reducers = combineReducers ({
-    todos: todoReducer,
+   tasks: taskReducer,
 });
 
 const persistConfig = {

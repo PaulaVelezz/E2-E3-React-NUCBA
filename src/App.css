@@ -1,27 +1,38 @@
-.td_list{
-  width: 450px;
+.add-todo{
+  background: #f8f8f8;
+  border-radius: 7px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
   display: flex;
-  flex-direction: column;
-  gap: 14px;
-  padding: 10px 16px;
-  text-align: center;
-  border-radius: 22px;
-  background-color: #232323;
-  color: #f6f6f6;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.td_list h1{
+.todo-intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.todo-intro h1{
   color: #ffb444;
   font-size: 2.2em;
   letter-spacing: 1px;
+  margin-bottom: 0.50em;
 }
 
-.td_list h3{
+.todo-intro h3{
   font-size: 1.1em;
   letter-spacing: 1px;
+  color: #f6f6f6;
 }
 
-.btn_input{
+.task-button{
   background-color: #80d04e;
   border: none;
   outline: none;
@@ -35,7 +46,14 @@
   cursor: pointer;
 }
 
-.btn_delete{
+.task-input{
+  outline: none;
+  border: none;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.remove-task-button{
   border: none;
   padding: 8px;
   font-size: 1em;
@@ -46,22 +64,15 @@
   cursor: pointer;
 }
 
-.td_input{
-  padding: 2px;
-  background: #f8f8f8;
-  border-radius: 7px;
+.tasks-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 0.40rem;
 }
 
-.td_input > .text {
-  outline: none;
-  padding: 0px 10px;
-  font-size: 1em;
-  width: 240px;
-  height: 46px;
-  border: none;
-}
-
-.nuevo_item{
+.task-item{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -69,24 +80,9 @@
   justify-content: space-between;
   background-color:#070707;
   border: solid 1px #d49637;
+  color: #f6f6f6;
   padding: 0.60rem 0.80rem;
   margin-bottom: 0.50rem;
   width: 100%;
   border-radius: 7px;
-}
-
-.texto_tarea{
-  color: whitesmoke;
-  font-size: 1.1em;
-  letter-spacing: 1px;
-}
-
-.td_lista{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 500;
-  color: #807d7d;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
